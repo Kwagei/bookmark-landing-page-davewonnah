@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header starts here */
+
+header{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.links{
+    margin-top: 20px;
+    margin-right: 180px;
+}
+
+.links a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #000;
+    font-size: 18px;
+}
+.links a:hover{
+    color: red;
+}
+.links button{
+    width: 60px;
+    font-size: 14px;
+    height: 24px;
+}
+
+.links button:hover{
+    color: red;
+    border: 1px solid red;
+}

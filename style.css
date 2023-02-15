@@ -654,6 +654,10 @@ footer{
 }
 .buttom i{
     color: #fff;
+    cursor: pointer;
+}
+.buttom i:hover{
+    color: #fb5859;
 }
 
 .info-3 a{

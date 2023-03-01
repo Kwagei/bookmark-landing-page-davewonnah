@@ -689,3 +689,55 @@ footer{
     margin-left: 6px;
 }
 
+/* responsiveness starts here */
+
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+        background-color: #fff;
+        justify-content: space-between;
+        height: 8rem;
+        font-family: "poppins" sans-serif;
+    }
+    
+    .logo{
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    .links{
+        display: flex;
+        /* background-color: #fb5859; */
+        margin-top: 44px;
+        margin-left: 120px;
+    }
+    
+    .links a{
+        text-decoration: none;
+        margin-right: 5px;
+        color: #000;
+        font-size: 16px;
+    }
+    #feature{
+        margin-right: 20px;
+    }
+    
+    #price{
+        margin-right: 20px;
+    }
+    
+    #call{
+        margin-right: 20px;
+    }
+    .links button{
+        width: 90px;
+        font-size: 14px;
+        background-color: #fb5859;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 30px;
+        margin-top: -10px;
+    }
+
+}

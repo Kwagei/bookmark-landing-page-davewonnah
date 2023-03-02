@@ -694,9 +694,8 @@ footer{
 @media only screen and (max-width: 600px) {
     header{
         display: flex;
-        background-color: #fff;
         justify-content: space-between;
-        height: 8rem;
+        height: 4rem;
         font-family: "poppins" sans-serif;
     }
     
@@ -706,9 +705,8 @@ footer{
     }
     .links{
         display: flex;
-        /* background-color: #fb5859; */
         margin-top: 44px;
-        margin-left: 120px;
+        margin-left: 80px;
     }
     
     .links a{
@@ -739,5 +737,153 @@ footer{
         height: 30px;
         margin-top: -10px;
     }
+
+    /* main starts here */
+
+    main{
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+        width: 100%;
+        font-family: "poppins" sans-serif;
+    }
+    
+    
+    .simple-contents{
+        /* background-color: blue; */
+        height: 60vh;
+        width: 90%;
+        margin-left: -10px;
+        font-size: 10px;
+    }
+    .simple-contents h1{
+        margin-left: 30px;
+    }
+    
+    .simple-contents p{
+       margin-left: 30px;
+    }
+    
+    .simple-contents button{
+        width: 4rem;
+        font-size: 8px;
+        height: 30px;
+    }
+    #blue-btn{
+        background-color: hsl(231, 69%, 60%);
+        margin-left: 30px;
+        
+    }
+    
+    .simple-img svg{
+        transform: scale(0.5);
+        margin-top: -220px;
+        margin-left: -80px;
+    }
+    
+    .simple-img{
+        animation-name: paused;
+        animation-duration: 5s;
+        animation-play-state: paused;
+    }
+    
+    
+    .simple-img{
+        width: 50%;
+        height: 160px;
+        padding: 2rem;
+    }
+
+    /* feature section starts here */
+
+    .feature-top{
+        /* background-color: #e55a5a; */
+        margin-top: -150px;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .feature{
+        display: block;
+        align-items: center;
+        height: 50vh;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .feature h1{
+        padding-left: 13rem;
+        margin-top: 30px;
+        font-size: 26px;
+    }
+    .feature p{
+        padding-left: 5rem;
+        margin-top: 30px;
+        font-size: 16px;
+        color: rgb(64,66,86);
+        font-family: "poppins" sans-serif;
+    }
+    
+    
+    .feature-link-container a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'poppins' sans-serif;
+        color: rgb(11, 11, 11);
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+    #simple{
+        margin-left: 122px;
+    }
+    .feature-img{
+        height: 180px;
+        width: 50%;
+        margin-top: 180px;
+    }
+    
+    .feature-img svg{
+        transform: scale(0.5);
+        margin-right: -2rem;
+    }
+    
+    .img-contents{
+        height: 65vh;
+        width: 100%;
+    }
+    .img-contents h2{
+        padding-left: 0.1rem;
+        font-size: 26px;
+        margin-top: 110px;
+    }
+    .img-contents p{
+        margin-right: 30px;
+        margin-top: 60px;
+        font-size: 16px;
+    }
+    .img-contents button{
+        width: 4rem;
+        font-size: 8px;
+        height: 30px;
+        margin-left: 200px;
+    }
+
+    /* extension section starts here */
+
+    .extension{
+        background-color: #fb5859;
+        margin-top: -100px;
+    }
+    .extension h1{
+        margin-left: -350px;
+        font-size: 26px;
+    }
+    .extension p{
+        margin-left: -350px;
+    }
+    #small-1{
+        margin-left: -290px;
+    }
+    
 
 }
